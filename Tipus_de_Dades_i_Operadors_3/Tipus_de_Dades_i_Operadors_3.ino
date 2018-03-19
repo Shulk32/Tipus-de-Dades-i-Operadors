@@ -15,8 +15,8 @@
 
 
 //************************* VARIEBLES ******************************
-int a = 10;
-int b = 5;
+int a = 3;
+int b = 4;
 int h = 0;
 //*************************** SETUP ********************************
 void setup()              
@@ -40,4 +40,4 @@ void loop()
   
 }
 //************************* FUNCIONES ******************************
-//Calcula l'hipotenusa (h) partir d'una formula (podem cambiar el nombre de les lletres a i b i variará el resultat de la h
+//Calcula l'hipotenusa (h) partir d'una formula (podem cambiar el nombre de les lletres a i b i variará el resultat de la h maincrah
