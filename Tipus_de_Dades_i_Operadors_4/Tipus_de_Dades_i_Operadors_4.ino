@@ -15,23 +15,22 @@
 
 
 //************************* VARIEBLES ******************************
-int a = 4;
-int b = 3;
-int h = 0;
+int drive_gb = 5;
+int drive_mb = 0;
 //*************************** SETUP ********************************
-void setup()              
+void setup()             // run once, when the sketch starts
 {
-Serial.begin(9600);     // set up Serial library at 9600 bps
-   Serial.println("Vamoh a calcular la hipotenusa chunga");
+  Serial.begin(9600);     // set up Serial library at 9600 bps
+  
+  Serial.print("Your HD is ");
+  Serial.print(drive_gb);
+  Serial.println(" GB large.");
 
-   Serial.print("a = ");
-   Serial.println(a = a);
+  drive_mb = 1024 * drive_gb;
 
-   Serial.print("b = ");
-   Serial.println(b = b);
-
-   Serial.print("h = ");
-   Serial.println(h = (sqrt((a*a)+(b*b))));
+  Serial.print("It can store ");
+  Serial.print(drive_mb);
+  Serial.println(" Megabytes!");
 }
 
 //*************************** LOOP *********************************
@@ -40,4 +39,4 @@ void loop()
   
 }
 //************************* FUNCIONES ******************************
-//Calcula l'hipotenusa (h) partir d'una formula (podem cambiar el nombre de les lletres a i b i variará el resultat de la h
+//Aquest programa fa la conversió de GB a MB, donant només l'equivalència d'un GB a MB (1024)
