@@ -40,4 +40,4 @@ void loop()
   
 }
 //************************* FUNCIONES ******************************
-//Calcula l'hipotenusa (h) partir d'una formula (podem cambiar el nombre de les lletres a i b i variará el resultat de la h maincrah
+//Calcula l'hipotenusa (h) partir d'una formula (podem cambiar el nombre de les lletres a i b i variará el resultat de la h
